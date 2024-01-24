@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#navbar{
+	display: flex;
+	align-items:center ;
+	position: relative;
+	top: 0px;
+}
+#navbar ul{
+	display: flex;
+}
+#navbar::before{
+content: "";
+background-color: black;
+position: absolute;
+height: 10%;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: -2;
+opacity: 0.4;
+}
+
+#navbar ul li{
+	list-style: none;
+	font-size:1.3rem ;
+}
+#navbar ul li a{
+display: block;
+padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+	color: hotpink;
+	background-color: navyblue;
+}
+#logo{
+	margin:10px 34px;
+}
+.search{
+	display: flex;
+	justify-content: right;
+	justify-content: top;
+
+}
+#home{
+	display: flex;
+	flex-direction: column;
+	padding: 3px 200px;
+	justify-content: center;
+	align-items: center;
+}
+#home::before{
+	content: "";
+background:url(girl.jpg); no-repeat center center/cover;
+position: absolute;
+height: 35%;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: -1;
+opacity: 0.89;
+}
+#home h1{
+	color: black;
+	text-align: center;
+}
+
+#home p{
+	color:black;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+#shopping{
+	margin: 35px;
+	display: flex;
+	text-align: center;
+	
+}
+.shop-center{
+	text-align: center;
+	font-size: 2.3rem;
+}
+#shopping .box{
+text-decoration: none;
+	border: 2px solid brown;
+	width: 60%;
+	padding: 20px;
+	margin: 3px 6px;
+	border-radius: 28px;
+	background:#EEEBF0;
+}
+#shopping .box img{
+	height: 180px;
+	margin:auto;
+	display: block;
+}
+#shopping .box button{
+	font-size: 1.2rem;
+	font-family: 'Baloo 2', sans-serif;
+	text-decoration: none;
+	padding: 6px 20px;
+	border: 2px solid floralwhite;
+	background-color: brown;
+	color: navajowhite;
+	margin: 17px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#shopping{}
+#shopping{}
+#shopping{}
+
+#partner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#client-section{
+	height: 344px;
+	justify-content: center;
+	align-items: center;
+}
+#client-section .h-primary{
+	justify-content: center;
+	align-items: center;
+}
+#partner img{
+	height: 100px;
+}
+
+.h-primary{
+	font-family: 'Baloo 2', sans-serif;
+	font-size: 2.8rem;
+	padding:12px;
+	
+}
+.h-secondary{
+	font-family: 'Baloo 2', sans-serif;
+	font-size: 1.8rem;
+	padding:12px;
+}
+.btn{
+	padding: 6px 20px;
+	border: 2px solid rgba(188, 176, 151, 0.737);
+	background-color: rgba(19, 221, 174, 0.867);
+	color: navajowhite;
+	margin: 17px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	cursor: pointer;
+	}
+
+#center{
+	text-align: center;
+}
+.buy button{
+	text-decoration: none;
+}
